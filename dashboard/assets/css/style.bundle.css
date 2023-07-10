@@ -42304,8 +42304,6 @@ router-outlet{
         --kt-app-toolbar-height:70px
     }
     .app-toolbar{
-    	position: absolute;
-        top: 20%;
         height:var(--kt-app-toolbar-height)
     }
     [data-kt-app-header-fixed-mobile=true][data-kt-app-toolbar-fixed-mobile=true] .app-toolbar{
@@ -43237,6 +43235,10 @@ router-outlet{
     }
     [data-kt-app-header-sticky=on] .app-wrapper{
         margin-top:var(--kt-app-header-height-actual)
+    }
+    [data-kt-app-header-fixed-mobile=true] .app-wrapper{
+        position: absolute;
+        top: 10%;
     }
     [data-kt-app-header-fixed-mobile=true][data-kt-app-toolbar-sticky=on] .app-wrapper{
         margin-top:calc(var(--kt-app-header-height-actual) + var(--kt-app-toolbar-height-actual))
