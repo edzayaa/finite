@@ -43467,3 +43467,8 @@ router-outlet{
         margin-top:-47px;
     }
 }
+.down-process-btn {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}

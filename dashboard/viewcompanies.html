@@ -943,13 +943,20 @@
 															<!--end::Description-->
 														</div>
 														<!--end::Details-->
-														<div class="d-flex align-items-center w-200px flex-column mt-3">
-															<div class="d-flex justify-content-between w-100 mt-auto mb-2">
-																<span class="fw-semibold fs-6 text-gray-400">Progress of the investment</span>
-																<span class="fw-bold fs-6">50%</span>
+														<div class="down-process-btn">
+															<!--begin::Actions-->
+															<div class="d-flex mb-4">
+																<a href="#" class="btn btn-lg btn-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_bidding"><h2 class="text-white">Invest in Longevity Company</h2></a>
 															</div>
-															<div class="h-5px mx-3 w-100 bg-light mb-3">
-																<div class="bg-success rounded h-5px" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+															<!--end::Actions-->
+															<div class="d-flex align-items-center w-200px flex-column mt-3">
+																<div class="d-flex justify-content-between w-100 mt-auto mb-2">
+																	<span class="fw-semibold fs-6 text-gray-400">Progress of the investment</span>
+																	<span class="fw-bold fs-6">50%</span>
+																</div>
+																<div class="h-5px mx-3 w-100 bg-light mb-3">
+																	<div class="bg-success rounded h-5px" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
 															</div>
 														</div>
 													</div>
@@ -1005,11 +1012,7 @@
 														<!--end::Users-->
 													</div>
 													<!--end::Info-->
-													<!--begin::Actions-->
-													<div class="d-flex mb-4">
-														<a href="#" class="btn btn-lg btn-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_bidding"><h2 class="text-white">Invest in Longevity Company</h2></a>
-													</div>
-													<!--end::Actions-->
+													
 												</div>
 												<!--end::Wrapper-->
 												
@@ -1090,7 +1093,7 @@
 															<!--end::Icon-->
 															<!--begin::Details-->
 															<div class="fw-semibold">
-																<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Project tech requirements</a>
+																<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Pitch Deck</a>
 																<div class="text-gray-400">2 days ago
 																<a href="#">Karina Clark</a></div>
 															</div>
@@ -1106,7 +1109,7 @@
 															<!--end::Icon-->
 															<!--begin::Details-->
 															<div class="fw-semibold">
-																<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Create FureStibe branding proposal</a>
+																<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">2024 Financials</a>
 																<div class="text-gray-400">Due in 1 day
 																<a href="#">Marcus Blake</a></div>
 															</div>
@@ -1122,7 +1125,7 @@
 															<!--end::Icon-->
 															<!--begin::Details-->
 															<div class="fw-semibold">
-																<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Completed Project Stylings</a>
+																<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Intellectual Property</a>
 																<div class="text-gray-400">Due in 1 day
 																<a href="#">Terry Barry</a></div>
 															</div>
@@ -1138,7 +1141,7 @@
 															<!--end::Icon-->
 															<!--begin::Details-->
 															<div class="fw-semibold">
-																<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Create Project Wireframes</a>
+																<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Lab Results</a>
 																<div class="text-gray-400">Due in 3 days
 																<a href="#">Roth Bloom</a></div>
 															</div>
@@ -1147,6 +1150,11 @@
 														<!--end::File-->
 													</div>
 													<!--end::Files-->
+													<div class="d-flex mb-4">
+														<a href="#" class="btn btn-lg btn-primary me-3">
+															<h2 class="text-white">Download</h2>
+														</a>
+													</div>
 												</div>
 												<!--end::Card body -->
 											</div>
@@ -2557,7 +2565,7 @@
 							<!--begin:Form-->
 							<form id="kt_modal_bidding_form" class="form" action="#">
 								<div class="row">
-									<div class="col-lg-8">
+									<div class="col-md-12">
 										<!--begin::Heading-->
 										<div class="mb-20">
 											<div class="d-flex flex-shrink-0 mb-4">
@@ -2608,6 +2616,7 @@
 												<option value=""></option>
 												<option value="dollar" selected="selected">Stripe</option>
 												<option value="crypto">Coinbase</option>
+												<option value="credit">Credit card</option>
 											</select>
 											<!--end::Select2-->
 										</div>
@@ -2632,120 +2641,6 @@
 											</button>
 										</div>
 										<!--end::Actions-->
-									</div>
-									<div class="col-lg-4">
-										<div class="card card-flush">
-											<!--begin::Card header-->
-											<div class="card-header mt-6">
-												<!--begin::Card title-->
-												<div class="card-title flex-column">
-													<h1 class="fw-bold mb-1">Perk</h1>
-													<div class="text-muted fw-semibold fs-5 mb-8">Only available perks are shown. You can still invest any amount.</div>
-												</div>
-												<!--end::Card title-->
-											</div>
-											<div class="card-body p-9 pt-3">
-												<!--begin::Bid options-->
-												<div class="app-container container-xxl flex-stack gap-5">
-													<button type="button" class="btn btn-light-primary w-100" data-kt-modal-bidding="option">
-														<h1 class="fw-bold mb-1">10</h1>
-													</button>
-													<div class="text-muted fw-semibold fs-5 mb-8">*Limited 200 edition Buy Alerts memorabilia * Quarterly Investor Updates + *Private cocktail & charcuterie party with all our top investors</div>
-													<button type="button" class="btn btn-light-primary w-100" data-kt-modal-bidding="option">
-														<h1 class="fw-bold mb-1">50</h1>
-													</button>
-													<div class="text-muted fw-semibold fs-5 mb-8">Limited 100 edition Buy Alerts memorabilia * Quarterly Investor Updates. + Private cocktail & charcuterie party with all our top investors. + 1 on 1 zoom call with our CEO to discuss growth.</div>
-													<button type="button" class="btn btn-light-primary w-100" data-kt-modal-bidding="option">
-														<h1 class="fw-bold mb-1">100</h1>
-													</button>
-													<div class="text-muted fw-semibold fs-5">*Limited 50 edition BuyAlerts memorabilia *Quarterly Investor Updates #In-person dinner with CEO and executives at live event. *Private cocktail & charcuterie party with all our top investors</div>
-												</div>
-												<!--begin::Bid options-->
-											</div>
-										</div>
-										<div class="card card-flush">
-											<!--begin::Card header-->
-											<div class="card-header mt-6">
-												<!--begin::Card title-->
-												<div class="card-title flex-column">
-													<h1 class="fw-bold mb-1">Documents</h1>
-												</div>
-												<!--end::Card title-->
-											</div>
-											<!--end::Card header-->
-											<!--begin::Card body-->
-											<div class="card-body p-9 pt-3">
-												<!--begin::Files-->
-												<div class="d-flex flex-column mb-9">
-													<!--begin::File-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Icon-->
-														<div class="symbol symbol-30px me-5">
-															<img alt="Icon" src="assets/media/svg/files/pdf.svg">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Details-->
-														<div class="fw-semibold">
-															<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Project tech requirements</a>
-															<div class="text-gray-400">2 days ago
-															<a href="#">Karina Clark</a></div>
-														</div>
-														<!--end::Details-->
-													</div>
-													<!--end::File-->
-													<!--begin::File-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Icon-->
-														<div class="symbol symbol-30px me-5">
-															<img alt="Icon" src="assets/media/svg/files/doc.svg">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Details-->
-														<div class="fw-semibold">
-															<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Create FureStibe branding proposal</a>
-															<div class="text-gray-400">Due in 1 day
-															<a href="#">Marcus Blake</a></div>
-														</div>
-														<!--end::Details-->
-													</div>
-													<!--end::File-->
-													<!--begin::File-->
-													<div class="d-flex align-items-center mb-5">
-														<!--begin::Icon-->
-														<div class="symbol symbol-30px me-5">
-															<img alt="Icon" src="assets/media/svg/files/css.svg">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Details-->
-														<div class="fw-semibold">
-															<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Completed Project Stylings</a>
-															<div class="text-gray-400">Due in 1 day
-															<a href="#">Terry Barry</a></div>
-														</div>
-														<!--end::Details-->
-													</div>
-													<!--end::File-->
-													<!--begin::File-->
-													<div class="d-flex align-items-center">
-														<!--begin::Icon-->
-														<div class="symbol symbol-30px me-5">
-															<img alt="Icon" src="assets/media/svg/files/ai.svg">
-														</div>
-														<!--end::Icon-->
-														<!--begin::Details-->
-														<div class="fw-semibold">
-															<a class="fs-6 fw-bold text-dark text-hover-primary" href="#">Create Project Wireframes</a>
-															<div class="text-gray-400">Due in 3 days
-															<a href="#">Roth Bloom</a></div>
-														</div>
-														<!--end::Details-->
-													</div>
-													<!--end::File-->
-												</div>
-												<!--end::Files-->
-											</div>
-											<!--end::Card body -->
-										</div>
 									</div>
 								</div>
 							</form>
