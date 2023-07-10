@@ -1,0 +1,12 @@
+::-webkit-scrollbar {
+	display: none !important;
+}
+
+.fs-15 {
+	font-size: 60px !important;
+}
+@media screen and (max-width: 1024px) and (max-width: 640px) {
+    .fs-15 {
+		font-size: 20px !important;
+	}
+}
