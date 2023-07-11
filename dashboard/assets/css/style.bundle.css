@@ -25029,7 +25029,7 @@ textarea.form-control-lg{
     --kt-scrolltop-icon-color:#FFFFFF;
     --kt-scrolltop-icon-color-hover:#FFFFFF;
     --kt-drawer-box-shadow:0px 1px 9px -3px rgba(0, 0, 0, 0.05);
-    --kt-drawer-bg-color:#ffffff;
+    --kt-drawer-bg-color:#000;
     --kt-drawer-overlay-bg-color:rgba(0, 0, 0, 0.2);
     --kt-menu-dropdown-box-shadow:0px 0px 50px 0px rgba(82, 63, 105, 0.15);
     --kt-menu-dropdown-bg-color:#ffffff;
@@ -26153,6 +26153,7 @@ html:not([data-theme=dark]) .theme-light-bg-body{
 .menu,.menu-wrapper{
     display:flex;
     padding:0;
+    padding-top: 50px;
     margin:0;
     list-style:none
 }
