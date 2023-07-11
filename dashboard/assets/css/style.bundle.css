@@ -26153,7 +26153,6 @@ html:not([data-theme=dark]) .theme-light-bg-body{
 .menu,.menu-wrapper{
     display:flex;
     padding:0;
-    padding-top: 50px;
     margin:0;
     list-style:none
 }
@@ -38640,6 +38639,7 @@ code:not([class*=language-]){
     position:fixed;
     top:0;
     bottom:0;
+    padding-top: 40px;
     background-color:var(--kt-drawer-bg-color);
     transition:transform .3s ease-in-out!important
 }
