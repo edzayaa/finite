@@ -38647,6 +38647,12 @@ code:not([class*=language-]){
     flex-direction: column;
     justify-content: center;
 }
+.offerings-shared-company_name {
+    color: #000 !important;
+}
+.c-offering-card__term {
+    color: #000 !important;
+}
 .drawer.drawer-start{
     left:0;
     transform:translateX(-100%)
