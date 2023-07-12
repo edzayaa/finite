@@ -49503,7 +49503,12 @@ body {
     -ms-transform: translateY(8%);
     transform: translateY(8%);
 }
-
+.offerings-shared-company_name {
+    color: #000 !important;
+}
+.c-offering-card__term {
+    color: #000 !important;
+}
 .offerings-shared-invest_button__unavailable_tooltip_hr {
     border-color: #333;
 }
